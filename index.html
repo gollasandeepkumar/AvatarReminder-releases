@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avatar Reminder: a little character that reminds you to drink water</title>
+  <meta name="description" content="A free Mac menu bar app. An animated character walks onto your screen and reminds you to drink water, stretch, rest your eyes and breathe.">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img class="icon" src="icon.png" alt="" width="96" height="96">
+    <h1>Avatar Reminder</h1>
+    <p class="tagline">A little character walks onto your screen and asks whether you've had some water.
+      Answer <strong>YES</strong> and it celebrates; choose <strong>Remind me later</strong> and it asks again soon.</p>
+    <p class="actions">
+      <a class="button primary" id="download" href="https://github.com/gollasandeepkumar/AvatarReminder-releases/releases/latest">Download for Mac</a>
+      <code class="brew">brew install --cask gollasandeepkumar/tap/avatar-reminder</code>
+    </p>
+    <p class="small">Free · macOS 14 Sonoma or later · Apple silicon and Intel · <span id="version"></span></p>
+  </header>
+
+  <section class="demo" aria-label="Live demo">
+    <p class="hint" id="hint">Try it: answer Droplet.</p>
+    <div class="stage" id="stage">
+      <canvas id="character" aria-hidden="true"></canvas>
+      <div class="bubble" id="bubble" hidden>
+        <p class="line" id="greeting">Hey there</p>
+        <p class="line" id="question">Did you drink water?</p>
+        <p class="buttons">
+          <button class="pill prominent" id="yes" type="button">YES</button>
+          <button class="pill" id="later" type="button">Remind me later</button>
+        </p>
+      </div>
+      <p class="confirmation" id="confirmation" hidden>Nice! 💙</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="features">
+      <h2>What it does</h2>
+      <ul>
+        <li><strong>Routines.</strong> Water, stretch, rest your eyes, posture and breathing, plus your own reminders: every few minutes, at set times, or once.</li>
+        <li><strong>Polite.</strong> It waits while you're away, on a call, in a Focus or watching something full screen, and shows a minute after.</li>
+        <li><strong>Habits.</strong> Daily goals, streaks and a week's history in the menu bar.</li>
+        <li><strong>Characters.</strong> Five built in and a gallery to choose from. Build your own from parts, or turn a drawing, photo, GIF or video into one.</li>
+        <li><strong>Personality.</strong> Cheerful, Coach, Calm, Cheeky, Buddy or Mom, in English, Hinglish, हिन्दी, తెలుగు or தமிழ். It can read reminders aloud.</li>
+        <li><strong>Plain words.</strong> Type "stretch every 50 minutes on workdays" and it sets it up.</li>
+        <li><strong>Meetings and time limits.</strong> A heads-up before each meeting with a Join button, and a gentle nudge when an app or site's daily time runs out.</li>
+        <li><strong>For developers.</strong> Scripts, AI agents (MCP), Shortcuts and a local webhook can speak through your character: <code>avatar ask "Deploy?" --option Ship --option Wait</code>.</li>
+      </ul>
+    </section>
+
+    <section class="install">
+      <h2>Installing</h2>
+      <ol>
+        <li>Download the DMG, open it, and drag <strong>Avatar Reminder App</strong> to Applications. Or install it with Homebrew (above).</li>
+        <li>Open it. The app isn't notarized by Apple yet, so macOS says it can't check it. Click <strong>Done</strong>.</li>
+        <li>Open <strong>System Settings → Privacy &amp; Security</strong>, scroll down, click <strong>Open Anyway</strong> next to Avatar Reminder App, and confirm. You only do this once.</li>
+        <li>The water-drop icon appears in the menu bar, and a short setup guides you through the rest. New versions arrive as updates.</li>
+      </ol>
+    </section>
+
+    <section class="privacy">
+      <h2>Private by design</h2>
+      <p>No account, no tracking, no ads. Everything stays on your Mac: your routines, your history, your characters. The features that use Apple Intelligence run on the Mac too.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Avatar Reminder is free. Made with care for your water bottle.
+      <a href="https://github.com/gollasandeepkumar/AvatarReminder-releases/releases">Releases and what's new</a></p>
+  </footer>
+  <script src="demo.js" defer></script>
+</body>
+</html>

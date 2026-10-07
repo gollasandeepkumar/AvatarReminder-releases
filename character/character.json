@@ -1,0 +1,99 @@
+{
+  "bubbleAnchor" : {
+    "x" : 0.5,
+    "y" : 0.88
+  },
+  "clips" : {
+    "arrive.mov" : {
+      "file" : "arrive.png",
+      "frames" : 10
+    },
+    "ask.mov" : {
+      "file" : "ask.png",
+      "frames" : 24
+    },
+    "run.mov" : {
+      "file" : "run.png",
+      "frames" : 5
+    },
+    "sad-walk.mov" : {
+      "file" : "sad-walk.png",
+      "frames" : 12
+    },
+    "sad.mov" : {
+      "file" : "sad.png",
+      "frames" : 27
+    },
+    "walk.mov" : {
+      "file" : "walk.png",
+      "frames" : 9
+    },
+    "yes.mov" : {
+      "file" : "yes.png",
+      "frames" : 23
+    }
+  },
+  "fps" : 15,
+  "height" : 140,
+  "name" : "Droplet",
+  "states" : {
+    "ask" : {
+      "segments" : [
+        {
+          "clip" : "ask.mov",
+          "repeat" : "untilAnswered"
+        }
+      ]
+    },
+    "enter" : {
+      "segments" : [
+        {
+          "clip" : "walk.mov",
+          "repeat" : "untilArrived",
+          "speed" : 92.807037037037034
+        },
+        {
+          "clip" : "arrive.mov",
+          "repeat" : "once"
+        }
+      ]
+    },
+    "exitHappy" : {
+      "direction" : "right",
+      "segments" : [
+        {
+          "clip" : "run.mov",
+          "repeat" : "untilOffscreen",
+          "speed" : 224.47444444444443
+        }
+      ]
+    },
+    "exitSad" : {
+      "direction" : "left",
+      "segments" : [
+        {
+          "clip" : "sad-walk.mov",
+          "repeat" : "untilOffscreen",
+          "speed" : 51.144074074074076
+        }
+      ]
+    },
+    "later" : {
+      "segments" : [
+        {
+          "clip" : "sad.mov",
+          "repeat" : "once"
+        }
+      ]
+    },
+    "yes" : {
+      "segments" : [
+        {
+          "clip" : "yes.mov",
+          "repeat" : "once"
+        }
+      ]
+    }
+  },
+  "width" : 124
+}

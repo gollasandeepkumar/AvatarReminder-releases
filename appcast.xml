@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Avatar Reminder App</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Wed, 07 Oct 2026 09:28:03 -0500</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/gollasandeepkumar/AvatarReminder-releases/releases/download/v1.0.0/AvatarReminderApp-1.0.0.zip" length="9102441" type="application/octet-stream" sparkle:edSignature="BQP2wq74s8nZNQqwrtVtw8qifk7t+NgB360AtI/3FmFwdpRXIvtm6dyo1B+qmdS6BL95deuSUGC+y5VmaOmCCA=="/>
+        </item>
+    </channel>
+</rss>
