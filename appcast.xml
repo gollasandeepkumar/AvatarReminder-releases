@@ -3,6 +3,14 @@
     <channel>
         <title>Avatar Reminder App</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Thu, 08 Oct 2026 04:29:36 -0500</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/gollasandeepkumar/AvatarReminder-releases/releases/download/v1.0.4/AvatarReminderApp-1.0.4.zip" length="9218285" type="application/octet-stream" sparkle:edSignature="F80SDtK/tM6WQTiWa0RstxD6rIgjWBWipRGXn8q4Jm2110wzvhHFw0S5/IAXE5aJKJRyVKUc2wGcvyJ7WZ6kCA=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Wed, 07 Oct 2026 14:24:51 -0500</pubDate>
             <sparkle:version>77</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/gollasandeepkumar/AvatarReminder-releases/releases/download/v1.0.2/AvatarReminderApp-1.0.2.zip" length="9109508" type="application/octet-stream" sparkle:edSignature="95lSnpEfTfaYuQ83XxlxWBjChsPFK7tQHfcTx8qNrTQaGtRPH/hZ9XwUMn2oQBQkWD9p+DcLeteNoyrfZWuyDw=="/>
-        </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Wed, 07 Oct 2026 09:44:36 -0500</pubDate>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/gollasandeepkumar/AvatarReminder-releases/releases/download/v1.0.1/AvatarReminderApp-1.0.1.zip" length="9102448" type="application/octet-stream" sparkle:edSignature="MUZjBVlDx2F5lKDxvJFSyJ07KLZjQsNsRyLplDxc8mwMDyGarMKaCMsge3+hT1aMG8b9F1MPuBqsIqNbsdORCw=="/>
         </item>
     </channel>
 </rss>
